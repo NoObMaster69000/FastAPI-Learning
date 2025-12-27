@@ -1,0 +1,27 @@
+# Core FastAPI and server
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary  # For PostgreSQL
+alembic
+
+# Pydantic and settings
+pydantic[email]
+pydantic-settings
+
+# Security
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==3.2.2
+
+# Testing
+pytest
+pytest-cov
+httpx
+
+# Other utilities
+python-dotenv
+tenacity
+python-multipart
